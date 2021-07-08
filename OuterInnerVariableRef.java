@@ -2,6 +2,7 @@ package com.baidu.bugbye.bca.demo;
 
 public class OuterInnerVariableRef {
 
+    // 增加第二处扫描信息
     public void outerouter1() {
         String aaa = null;
         aaa.equals("A");
