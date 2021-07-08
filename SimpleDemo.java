@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class SimpleDemo {
 
-    // 增加提示信息第一处
+    // 第二处测试
     public void base(boolean trueOrFalse) {
         String str = "normal";
         if (trueOrFalse) {
