@@ -13,18 +13,13 @@ public class Temp {
     public void test4() {
         String filePaht = "C:\\Users\\zhangquan07\\Desktop\\test";
         File file = new File(filePaht);
+        // 增加第三出修改内容
         File[] listFiles = FileUtils.listFiles(file, new String[]{"html"}, true).toArray(new File[]{});
         // String f = getFileName(a, "2f6eeb8d44a3fe793d6c96e998412ab4", "test", "2440");
         int b = 0;
     }
 
-    @Test
-    public void test3() {
-        Boolean obj1 = null;
-        if (true && obj1) {
-            return;
-        }
-    }
+    // 删除下面的内容
 
     @Test
     public void test2() {
